@@ -127,6 +127,21 @@
     height: 70px;
 }
 
+.pokemon .detail .types .pokeclick {
+    color: #060606;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .725rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    transition: 0.3s;
+}
+.pokemon .detail .types .pokeclick:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
 .pagination {
     display: flex;
     flex-direction: row;
@@ -144,6 +159,27 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+}
+
+.myModal-interno {
+    border-radius: 100px;
+}
+
+.modalType{
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+}
+
+.pokemonImg{
+    margin: 10px;
+    width: 90%;
+    max-height: 380px;
+}
+
+.pokemonNome{
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
 @media screen and (min-width: 380px) {
